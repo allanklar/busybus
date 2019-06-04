@@ -1,0 +1,217 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #6E8998;
+  width: 375px;
+  height: 667px;
+
+}
+
+/* this is the typography section*/
+
+h1 {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1.1em;
+  letter-spacing: 1.1;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: left;
+
+}
+
+.table {
+  color: #000000;
+
+}
+.strong {
+  font-weight: bolder;
+  color: #000000;
+  line-height: 1.2;
+
+}
+.out {
+  font-weight: bold;
+  color: #fd7b7b;
+}
+.reroute {
+  font-weight: bold;
+  color: #fbb23e;
+}
+
+
+
+/* this is the navigation section*/
+.navigation{
+  background-color: #4C748A;
+  height: 64px;
+  width: 375px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+
+
+}
+.nav-top {
+ width: 100%;
+ height: 20px;
+ background-image: url("../images/topdetails.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-bottom: 10px;
+
+
+
+}
+.nav-left {
+
+  min-width: 10%;
+  height: 25px;
+  float: left;
+  background-image: url("../images/icon-left.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+
+
+}
+
+.nav-middle {
+  min-width: 75%;
+  height: 25px;
+  text-align: center;
+  float: left;
+  padding: 5px 25px 5px 25px;
+
+}
+
+.nav-right {
+  min-width: 22px;
+  text-align: right;
+  height: 22px;
+  background-image: url("../images/favorites.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  padding: 5px;
+  float: left;
+  margin-left: 10px;
+}
+
+/* this is the map section*/
+
+.mapcontainer {
+  width: 100%;
+  text-align: center;
+  padding: 69px 10px 5px 10px;
+
+}
+
+
+.map {
+  background-color: #fff;
+  min-height: 194px;
+  min-width: 354px;
+  background-image: url("../images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+
+/* this is the bus information section*/
+
+.table {
+  background-color: #fff;
+  min-width: 354px;
+  max-width: 480px;
+  min-height: 48px;
+  border-radius: 5px;
+  margin: 7px 10px;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px 0px 5px 5px;
+}
+.table:hover {
+  background-color: #f6f4f4;
+}
+
+.table-title {
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  height: 24px;
+  margin: 2px;
+
+}
+
+.table-left {
+  min-width: 80%;
+  height: 45px;
+  float: left;
+  text-align: left;
+  float: left;
+  padding: 5px;
+
+}
+
+.table-right {
+  min-width: 22px;
+  text-align: right;
+  height: 40px;
+  background-image: url("../images/icon-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-left: 30px;
+
+}
+
+
+
+
+
+
+/* code added to create two-column design
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+
+}
+/* code added to create four-column design
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
+}
+h1 {
+  font-size: 2em;
+  margin: 0;
+
+}*/
