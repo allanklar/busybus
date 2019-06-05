@@ -49,11 +49,11 @@ h3 {
 }
 .out {
   font-weight: bold;
-  color: #fd7b7b;
+  color: #ffffff;
 }
 .reroute {
   font-weight: bold;
-  color: #fbb23e;
+  color: #ffffff;
 }
 
 
@@ -150,27 +150,69 @@ h3 {
   margin: 7px 10px;
   box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   padding: 5px 0px 5px 5px;
+  align-content: middle;
 }
 .table:hover {
-  background-color: #f6f4f4;
+  background-color: #f3f2f2;
+
 }
 
 .table-title {
   width: 100%;
   padding: 5px 10px 5px 10px;
-  height: 24px;
+  height: 20px;
   margin: 2px;
 
 }
 
 .table-left {
-  min-width: 80%;
+  min-width: 60%;
   height: 45px;
   float: left;
   text-align: left;
   float: left;
   padding: 5px;
 
+}
+
+.table-icon1 {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/alerts.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  float: left;
+  margin: 4px 10px 0 5px;
+}
+
+.table-icon1-active {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/alerts_active.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  float: left;
+  margin: 4px 10px 0 5px;
+}
+
+.table-icon1-out {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/alerts_out.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  float: left;
+  margin: 4px 10px 0 5px;
+}
+
+.table-icon2 {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/notify.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+  float: left;
+  margin: 5px 10px 0 5px;
 }
 
 .table-right {
@@ -181,9 +223,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   float: left;
-  margin-left: 30px;
+  margin-left: 20px;
 
 }
+
+
 
 
 
