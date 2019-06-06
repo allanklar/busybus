@@ -4,10 +4,12 @@
 
 body {
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  color: #8C8C8C;
   background-color: #6E8998;
   width: 375px;
   height: 667px;
+  margin: auto;
 
 }
 
@@ -15,7 +17,6 @@ body {
 
 h1 {
   font-size: 2em;
-  font-family: sans-serif;
   font-weight: bold;
   text-align: center;
   padding: 25px;
@@ -23,40 +24,36 @@ h1 {
 
 h2 {
   font-size: 1.3em;
-  font-family: sans-serif;
   color: #ffffff;
 }
 
 h3 {
   font-size: 1.1em;
   letter-spacing: 1.1;
-  font-weight: 400;
-  font-family: sans-serif;
   color: #ffffff;
   text-align: left;
 
 }
 
 .table {
-  color: #000000;
+  color: #8C8C8C;
 
 }
 .strong {
-  font-weight: bolder;
+  font-size: 1.1em;
+  font-weight: 500;
   color: #000000;
   line-height: 1.2;
 
 }
 .out {
   font-weight: bold;
-  color: #ffffff;
+
 }
 .reroute {
   font-weight: bold;
-  color: #ffffff;
+
 }
-
-
 
 /* this is the navigation section*/
 .navigation{
