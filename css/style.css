@@ -48,12 +48,9 @@ p {
 
 }
 .strong {
-  font-size: 1em;
   font-weight: 700;
-  color: #000000;
-  line-height: 1.2;
-
 }
+
 .out {
   font-weight: bold;
 
