@@ -15,8 +15,11 @@ body {
   background-color: #6E8998;
   width: 375px;
   height: 667px;
-  overflow: scroll;
+  /*overflow: scroll;*/
   margin: 0 auto;
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
 }
 
 /* this is the typography section*/
