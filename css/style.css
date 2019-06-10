@@ -16,7 +16,7 @@ body {
   width: 375px;
   height: 667px;
   overflow: scroll;
-  margin: 10vh auto;
+  margin: 0 auto;
 }
 
 /* this is the typography section*/
